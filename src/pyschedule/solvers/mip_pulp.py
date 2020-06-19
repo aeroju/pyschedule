@@ -31,7 +31,7 @@ a simple interface to pulp which is also an interface blueprint for potential ot
 import pulp as pl
 import time
 
-from pyschedule.solvers.pulp_scip import SCIP_CMD
+# from pyschedule.solvers.pulp_scip import SCIP_CMD
 
 class MIP(object):
 	"""

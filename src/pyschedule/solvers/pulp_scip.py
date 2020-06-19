@@ -3,7 +3,7 @@ from time import clock
 import re
 import subprocess
 import pulp
-import pulp.solvers
+# import pulp.solvers
 
 class SCIP_CMD(pulp.solvers.LpSolver_CMD):
     def __init__(self, path = None, keepFiles = 0, mip = 1,
